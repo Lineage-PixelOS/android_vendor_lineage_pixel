@@ -97,6 +97,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Bootanimation
 PRODUCT_COPY_FILES += vendor/lineagepixel/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 
 # AOSP packages
